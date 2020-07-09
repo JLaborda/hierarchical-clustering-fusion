@@ -25,6 +25,16 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <!--librería de Tetrad manipulado por José Miguel Puerta-->
+    <dependency>
+      <groupId>fusion</groupId>
+      <artifactId>fusion</artifactId>
+      <scope>system</scope>
+      <version>2.0</version>
+      <systemPath>${basedir}/src/lib/fusion.jar</systemPath>
+    </dependency>
+
   </dependencies>
 
   <build>
